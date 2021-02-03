@@ -3,10 +3,15 @@ import { miradorImageToolsPlugin } from '../../src';
 
 const config = {
   id: 'demo',
+  window: {
+    allowClose: false,
+    defaultView: 'single', // Configure which viewing mode (e.g. single, book, gallery) for windows to be opened in
+  },
   windows: [{
     imageToolsEnabled: true,
     imageToolsOpen: true,
-    manifestId: 'https://purl.stanford.edu/sn904cj3429/iiif/manifest',
+    thumbnailNavigationPosition: 'far-right',
+    manifestId: window.bhBookManifest,
   }],
   theme: {
     palette: {

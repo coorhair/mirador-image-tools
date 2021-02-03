@@ -18,6 +18,21 @@ module.exports = {
       '@material-ui/styles': path.resolve('./', 'node_modules', '@material-ui/styles'),
       react: path.resolve('./', 'node_modules', 'react'),
       'react-dom': path.resolve('./', 'node_modules', 'react-dom'),
+      mirador: path.resolve('./', 'node_modules', '@regang', 'mirador')
     },
+    html: {
+      template: 'demo/src/index.html'
+    },
+    rules: {
+      babel: {
+        loader: 'babel-loader',
+        options: {
+          presets: [
+            ['@babel/preset-env', { targets: "defaults" }]
+          ],
+          plugins: ['@babel/plugin-proposal-export-default-from']
+        }
+      }
+    }
   },
 };
