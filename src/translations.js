@@ -53,6 +53,19 @@ const translations = {
     saturation: 'Сатурација',
     showImageTools: 'Прикажите алат',
   },
+  vi: {
+    brightness: 'Độ sáng',
+    collapse_open: 'Thu gọn công cụ',
+    collapse_close: 'Mở rộng công cụ',
+    contrast: 'Tương phản',
+    flip: 'Lật ngang',
+    greyscale: 'Ảnh đen trắng',
+    invert: 'Đảo ngược màu sắc',
+    revert: 'Hoàn nguyên',
+    rotateLeft: 'Quay trái',
+    rotateRight: 'Quay phải',
+    saturation: 'Độ bão hòa',
+  },
 };
 
 export default translations;
