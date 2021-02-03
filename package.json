@@ -51,7 +51,7 @@
   "author": "",
   "homepage": "",
   "license": "Apache-2.0",
-  "repository": "",
+  "repository": "https://github.com/coorhair/mirador-image-tools",
   "keywords": [
     "react-component"
   ]
