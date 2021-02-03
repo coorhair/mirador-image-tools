@@ -1,5 +1,5 @@
 {
-  "name": "mirador-image-tools",
+  "name": "@regang/mirador-image-tools",
   "version": "0.10.0",
   "description": "mirador-image-tools React component",
   "main": "lib/index.js",
