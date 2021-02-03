@@ -23,6 +23,7 @@ module.exports = {
     html: {
       template: 'demo/src/index.html'
     },
+    publicPath: 'https://static.brainhub.vn/',
     rules: {
       babel: {
         loader: 'babel-loader',
