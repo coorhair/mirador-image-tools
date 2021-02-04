@@ -11,7 +11,7 @@
     "umd"
   ],
   "scripts": {
-    "build": "nwb build-react-component",
+    "build": "nwb build-react-component && npx cpx ./demo/src/web.config ./demo/dist/",
     "clean": "nwb clean-module && nwb clean-demo",
     "lint": "eslint ./src ./__tests__",
     "prepublishOnly": "npm run build",
@@ -35,6 +35,7 @@
     "@regang/mirador": "^3.0.2",
     "babel-eslint": "^10.0.3",
     "babel-jest": "^26.6.3",
+    "cpx": "^1.5.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
     "eslint": "^6.1.0",
